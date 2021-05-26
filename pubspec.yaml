@@ -1,7 +1,8 @@
 name: categorized_dropdown
 description: Categorised droptown created using base dropdown widget of the Flutter.
 version: 1.0.0
-homepage:
+homepage: https://github.com/buraktabn/categorized_dropdown
+repository: https://github.com/buraktabn/categorized_dropdown
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
