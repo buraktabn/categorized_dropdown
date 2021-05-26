@@ -27,7 +27,7 @@ With Flutter:
 This will add a line like this to your package's pubspec.yaml (and run an implicit  `dart pub get`):
 ```yaml
 dependencies:
-	categorized_dropdown:  1.0.0
+   categorized_dropdown:  1.0.0
 ```
 Alternatively, your editor might support  `flutter pub get`. Check the docs for your editor to learn more.
   
@@ -45,21 +45,21 @@ import  'package:categorized_dropdown/categorised_dropdown.dart';
 ## Example
 
 ```dart
-final  List<CategorisedDropdownItem<String>>?  items  = [
-	CategorizedDropdownItem(text: 'Exhaust', subItems: [
-		SubCategorizedDropdownItem(text: 'Pipes', value: 'pipes'),
-		SubCategorizedDropdownItem(text: 'Mufflers', value: 'mufflers'),
-		SubCategorizedDropdownItem(text: 'Gaskets', value: 'gaskets'),
-	]),
-	CategorizedDropdownItem(text: 'Engine Parts', subItems: [
-		SubCategorizedDropdownItem(text: 'Engine mounts', value: 'engine-mounts'),
-		SubCategorizedDropdownItem(text: 'Oil Filters', value: 'oil-filters'),
-	]),
-	CategorizedDropdownItem(text: 'Fuel & Emission', subItems: [
-		SubCategorizedDropdownItem(text: 'Fuel Injection', value: 'fuel-incection'),
-		SubCategorizedDropdownItem(text: '02 Sensor', value: 'o2-sensor'),
-	]),
-	CategorizedDropdownItem(text: 'Other', value: 'Other'),
+final List<CategorizedDropdownItem<String>>? items = [
+  CategorizedDropdownItem(text: 'Exhaust', subItems: [
+    SubCategorizedDropdownItem(text: 'Pipes', value: 'pipes'),
+    SubCategorizedDropdownItem(text: 'Mufflers', value: 'mufflers'),
+    SubCategorizedDropdownItem(text: 'Gaskets', value: 'gaskets'),
+  ]),
+  CategorizedDropdownItem(text: 'Engine Parts', subItems: [
+    SubCategorizedDropdownItem(text: 'Engine mounts', value: 'engine-mounts'),
+    SubCategorizedDropdownItem(text: 'Oil Filters', value: 'oil-filters'),
+  ]),
+  CategorizedDropdownItem(text: 'Fuel & Emission', subItems: [
+    SubCategorizedDropdownItem(text: 'Fuel Injection', value: 'fuel-incection'),
+    SubCategorizedDropdownItem(text: '02 Sensor', value: 'o2-sensor'),
+  ]),
+  CategorizedDropdownItem(text: 'Other', value: 'Other'),
 ];
 ```
 ```dart
@@ -67,14 +67,14 @@ String? value;
 ```
 ```dart
 CategorizedDropdown(
-	items: items,
-	value: value,
-	hint: const  Text('Select auto parts'),
-	onChanged: (v) {
-		setState(() {
-			value = value;
-		});
-	},
+  items: items,
+  value: value,
+  hint: const Text('Select auto parts'),
+  onChanged: (v) {
+    setState(() {
+      value = value;
+    });
+  },
 ),
 ```
 
