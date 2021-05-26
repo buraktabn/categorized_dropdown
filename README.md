@@ -22,7 +22,7 @@ Run this command:
 With Flutter:
 
 ```shell
- $ flutter pub add categorised_dropdown
+ $ flutter pub add categorized_dropdown
 ```
 This will add a line like this to your package's pubspec.yaml (and run an implicit  `dart pub get`):
 ```yaml
